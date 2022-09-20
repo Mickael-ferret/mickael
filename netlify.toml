@@ -1,12 +1,6 @@
 [build]
-command= 'hugo'
-commandOrigin='config'
-environment=
-  - HUGO_VERSION
-  - HUGO_ENV
-
-publish= '/opt/build/repo/public'
-publishOrigin= 'congig'
+command = 'hugo'
+publish = 'public'
 
 [build.environment]
 HUGO_VERSION = '0.102.3'
