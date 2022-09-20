@@ -1,7 +1,7 @@
 [build]
-command: 'hugo'
-commandOrigin:'config'
-environment:
+command= 'hugo'
+commandOrigin='config'
+environment=
   - HUGO_VERSION
   - HUGO_ENV
 
