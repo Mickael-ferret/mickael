@@ -1,6 +1,6 @@
 [build]
-command = 'config'
-publish = 'config'
+command = 'hugo'
+publish = 'public'
 
 [build.environment]
 HUGO_VERSION = '0.102.3'
